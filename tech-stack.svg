@@ -1,97 +1,170 @@
-<svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="centerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    <!-- Enhanced Gradients -->
+    <radialGradient id="centerRadial" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:0.8" />
+      <stop offset="70%" style="stop-color:#0284C7;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:0.4" />
+    </radialGradient>
+    
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284C7;stop-opacity:1" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge> 
-        <feMergeNode in="coloredBlur"/>
+    
+    <linearGradient id="techGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <linearGradient id="techGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <!-- Enhanced Filters -->
+    <filter id="enhancedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0EA5E9" flood-opacity="0.2"/>
+    </filter>
   </defs>
   
-  <!-- Animated Background Circles -->
-  <circle cx="350" cy="100" r="80" fill="none" stroke="#6366F1" stroke-width="2" opacity="0.3">
-    <animate attributeName="r" values="70;90;70" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+  <!-- Animated Background Grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0EA5E9" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="200" fill="url(#grid)">
+    <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Floating Background Orbs -->
+  <circle cx="150" cy="50" r="30" fill="url(#techGradient1)" opacity="0.3">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 10,-5; 0,0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="25;35;25" dur="6s" repeatCount="indefinite"/>
   </circle>
   
-  <circle cx="350" cy="100" r="60" fill="none" stroke="#8B5CF6" stroke-width="2" opacity="0.4">
-    <animate attributeName="r" values="50;70;50" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  <circle cx="650" cy="150" r="25" fill="url(#techGradient2)" opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -8,8; 0,0" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="20;30;20" dur="5s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Pulsing Center Element -->
-  <circle cx="350" cy="100" r="35" fill="url(#centerGradient)" filter="url(#glow)">
-    <animate attributeName="r" values="30;40;30" dur="2s" repeatCount="indefinite"/>
+  <!-- Enhanced Center Element -->
+  <circle cx="400" cy="100" r="35" fill="none" stroke="url(#primaryGradient)" stroke-width="3" opacity="0.8" filter="url(#enhancedGlow)">
+    <animate attributeName="r" values="30;40;30" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <text x="350" y="108" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">MENAN</text>
   
-  <!-- Floating Tech Cards -->
-  <rect x="150" y="60" width="70" height="30" rx="8" fill="#1F2937" stroke="#6366F1" stroke-width="2" opacity="0.9">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <text x="185" y="80" text-anchor="middle" fill="#6366F1" font-family="Arial" font-size="13" font-weight="bold">C++</text>
-  
-  <rect x="480" y="60" width="70" height="30" rx="8" fill="#1F2937" stroke="#8B5CF6" stroke-width="2" opacity="0.9">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="515" y="80" text-anchor="middle" fill="#8B5CF6" font-family="Arial" font-size="13" font-weight="bold">CSS</text>
-  
-  <rect x="150" y="110" width="70" height="30" rx="8" fill="#1F2937" stroke="#EC4899" stroke-width="2" opacity="0.9">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="185" y="130" text-anchor="middle" fill="#EC4899" font-family="Arial" font-size="13" font-weight="bold">C#</text>
-  
-  <rect x="480" y="110" width="70" height="30" rx="8" fill="#1F2937" stroke="#10B981" stroke-width="2" opacity="0.9">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="515" y="130" text-anchor="middle" fill="#10B981" font-family="Arial" font-size="13" font-weight="bold">.NET</text>
-  
-  <!-- Animated Connection Lines -->
-  <line x1="220" y1="100" x2="315" y2="100" stroke="#6366F1" stroke-width="3" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="385" y1="100" x2="480" y2="100" stroke="#8B5CF6" stroke-width="3" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.5s" repeatCount="indefinite"/>
-  </line>
-  
-  <!-- Floating Additional Tech Elements -->
-  <rect x="280" y="40" width="60" height="20" rx="5" fill="#374151" opacity="0.8">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <text x="310" y="53" text-anchor="middle" fill="#F59E0B" font-family="Arial" font-size="10" font-weight="bold">JS</text>
-  
-  <rect x="360" y="40" width="60" height="20" rx="5" fill="#374151" opacity="0.8">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="390" y="53" text-anchor="middle" fill="#EF4444" font-family="Arial" font-size="10" font-weight="bold">HTML</text>
-  
-  <rect x="280" y="140" width="60" height="20" rx="5" fill="#374151" opacity="0.8">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="310" y="153" text-anchor="middle" fill="#06B6D4" font-family="Arial" font-size="10" font-weight="bold">VS</text>
-  
-  <rect x="360" y="140" width="60" height="20" rx="5" fill="#374151" opacity="0.8">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="390" y="153" text-anchor="middle" fill="#8B5CF6" font-family="Arial" font-size="10" font-weight="bold">GIT</text>
-  
-  <!-- Decorative Floating Dots -->
-  <circle cx="100" cy="50" r="4" fill="#6366F1" opacity="0.7">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="3s" repeatCount="indefinite"/>
+  <!-- Inner Center Circle -->
+  <circle cx="400" cy="100" r="20" fill="url(#centerRadial)">
+    <animate attributeName="r" values="18;22;18" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="600" cy="50" r="4" fill="#8B5CF6" opacity="0.7">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="3.5s" repeatCount="indefinite"/>
+  
+  <!-- Enhanced Center Text -->
+  <text x="400" y="108" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" filter="url(#enhancedGlow)">MENAN</text>
+  
+  <!-- Enhanced Tech Modules with Shadows -->
+  <g>
+    <!-- C++ Module -->
+    <rect x="170" y="60" width="90" height="40" rx="20" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2" opacity="0.95" filter="url(#cardShadow)">
+      <animate attributeName="y" values="60;55;60" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="215" y="82" text-anchor="middle" fill="#0EA5E9" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">C++</text>
+    
+    <!-- CSS Module -->
+    <rect x="540" y="60" width="90" height="40" rx="20" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2" opacity="0.95" filter="url(#cardShadow)">
+      <animate attributeName="y" values="60;55;60" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="585" y="82" text-anchor="middle" fill="#3B82F6" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">CSS</text>
+    
+    <!-- C# Module -->
+    <rect x="170" y="100" width="90" height="40" rx="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" opacity="0.95" filter="url(#cardShadow)">
+      <animate attributeName="y" values="100;95;100" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="215" y="122" text-anchor="middle" fill="#2563EB" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">C#</text>
+    
+    <!-- .NET Module -->
+    <rect x="540" y="100" width="90" height="40" rx="20" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2" opacity="0.95" filter="url(#cardShadow)">
+      <animate attributeName="y" values="100;95;100" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="585" y="122" text-anchor="middle" fill="#1D4ED8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">.NET</text>
+  </g>
+  
+  <!-- Enhanced Connection Lines with Dots -->
+  <g>
+    <line x1="260" y1="100" x2="375" y2="100" stroke="url(#primaryGradient)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="320" cy="100" r="3" fill="#0EA5E9" opacity="0.8">
+      <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <line x1="425" y1="100" x2="540" y2="100" stroke="url(#primaryGradient)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="485" cy="100" r="3" fill="#3B82F6" opacity="0.8">
+      <animate attributeName="r" values="2;4;2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Additional Tech Indicators -->
+  <g>
+    <!-- JavaScript -->
+    <rect x="50" y="40" width="70" height="28" rx="14" fill="#0EA5E9" fill-opacity="0.2" stroke="#0EA5E9" stroke-width="1.5" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="58" text-anchor="middle" fill="#0EA5E9" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">JS</text>
+    
+    <!-- HTML -->
+    <rect x="680" y="40" width="70" height="28" rx="14" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="1.5" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="715" y="58" text-anchor="middle" fill="#3B82F6" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">HTML</text>
+    
+    <!-- iOS -->
+    <rect x="50" y="132" width="70" height="28" rx="14" fill="#2563EB" fill-opacity="0.2" stroke="#2563EB" stroke-width="1.5" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="150" text-anchor="middle" fill="#2563EB" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">iOS</text>
+    
+    <!-- Git -->
+    <rect x="680" y="132" width="70" height="28" rx="14" fill="#1D4ED8" fill-opacity="0.2" stroke="#1D4ED8" stroke-width="1.5" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="715" y="150" text-anchor="middle" fill="#1D4ED8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">Git</text>
+  </g>
+  
+  <!-- Floating Particle Effects -->
+  <circle cx="100" cy="160" r="2" fill="#0EA5E9" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 5,-10; 0,0" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="100" cy="150" r="3" fill="#EC4899" opacity="0.6">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="2.5s" repeatCount="indefinite"/>
+  
+  <circle cx="700" cy="30" r="2" fill="#3B82F6" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -5,-8; 0,0" dur="3.8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="600" cy="150" r="3" fill="#10B981" opacity="0.6">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4s" repeatCount="indefinite"/>
+  
+  <circle cx="50" cy="80" r="1.5" fill="#2563EB" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 8,5; 0,0" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="750" cy="120" r="1.5" fill="#1D4ED8" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -8,6; 0,0" dur="3.6s" repeatCount="indefinite"/>
   </circle>
 </svg>
