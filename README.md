@@ -10,7 +10,7 @@
   
   <!-- Tech Stack Visualization -->
   <div align="center">
-    <img src="tech-stack.svg" alt="Tech Stack" width="600" height="150"/>
+    <img src="tech-stack.svg" alt="Tech Stack" width="700" height="200"/>
   </div>
   
 </div>
@@ -26,11 +26,10 @@ const developer = {
   education: "Computer Science (Bachelors Degree)",
   languages: ["C++", "C#", "CSS", "JavaScript"],
   frameworks: [".NET 8", "Web Development"],
-  databases: ["Learning Database Management"],
+  databases: ["PostgreSQL", "MongoDB", "MySQL"],
   tools: ["Git", "Visual Studio", "GitHub"],
-  interests: ["Web Development", "Software Development", "Banking Systems"],
-  currentlyLearning: "Full Stack Development & Advanced Programming",
-  funFact: "Building flight booking systems and banking management solutions 🚀"
+  interests: ["Web Development", "Software Development", "iOS Apps"],
+  currentlyLearning: "iOS Development"
 };
 ```
 
@@ -48,14 +47,19 @@ const developer = {
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   
+  <!-- Databases -->
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  
   <!-- Tools -->
   <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   
   <!-- Learning -->
+  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS" />
   <img src="https://img.shields.io/badge/Computer_Science-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Computer Science" />
-  <img src="https://img.shields.io/badge/Web_Development-4ECDC4?style=for-the-badge&logo=web&logoColor=white" alt="Web Development" />
   
 </div>
 
@@ -127,12 +131,12 @@ const developer = {
   
   <!-- Footer Decoration -->
   <div align="center">
-    <img src="footer.svg" alt="Footer Decoration" width="400" height="50"/>
+    <img src="footer.svg" alt="Footer Decoration" width="600" height="80"/>
   </div>
   
   <br>
   
-  **"Code is poetry in motion"** ✨
+  **"Turning caffeine into code, one commit at a time"** ☕️💻
   
   <img src="https://komarev.com/ghpvc/?username=menansali&style=for-the-badge&color=6366F1" alt="Profile Views" />
   
