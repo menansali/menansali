@@ -9,40 +9,13 @@
   <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=FFFFFF" alt="GitHub Stats" />
   
   <!-- Tech Stack Visualization -->
-  <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background Circles -->
-    <circle cx="100" cy="100" r="35" fill="none" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
-    <circle cx="700" cy="100" r="30" fill="none" stroke="#8B5CF6" stroke-width="2" opacity="0.4"/>
-    
-    <!-- Tech Stack Cards -->
-    <rect x="150" y="50" width="80" height="20" rx="5" fill="#1F2937" opacity="0.9"/>
-    <text x="190" y="65" text-anchor="middle" fill="#6366F1" font-family="monospace" font-size="12">C++</text>
-    
-    <rect x="550" y="120" width="80" height="20" rx="5" fill="#1F2937" opacity="0.9"/>
-    <text x="590" y="135" text-anchor="middle" fill="#8B5CF6" font-family="monospace" font-size="12">CSS</text>
-    
-    <rect x="350" y="150" width="80" height="20" rx="5" fill="#1F2937" opacity="0.9"/>
-    <text x="390" y="165" text-anchor="middle" fill="#EC4899" font-family="monospace" font-size="12">C#</text>
-    
-    <!-- Connection Line -->
-    <line x1="50" y1="100" x2="750" y2="100" stroke="#6366F1" stroke-width="2" opacity="0.3"/>
-    
-    <!-- Center Element -->
-    <circle cx="400" cy="100" r="18" fill="#6366F1" opacity="0.8"/>
-    
-    <!-- Additional Tech Elements -->
-    <rect x="250" y="30" width="60" height="15" rx="3" fill="#374151" opacity="0.8"/>
-    <text x="280" y="42" text-anchor="middle" fill="#10B981" font-family="monospace" font-size="10">.NET</text>
-    
-    <rect x="500" y="170" width="70" height="15" rx="3" fill="#374151" opacity="0.8"/>
-    <text x="535" y="182" text-anchor="middle" fill="#F59E0B" font-family="monospace" font-size="10">JavaScript</text>
-    
-    <!-- Decorative Dots -->
-    <circle cx="200" cy="180" r="3" fill="#6366F1" opacity="0.7"/>
-    <circle cx="600" cy="40" r="3" fill="#8B5CF6" opacity="0.7"/>
-    <circle cx="300" cy="180" r="2" fill="#EC4899" opacity="0.6"/>
-    <circle cx="500" cy="40" r="2" fill="#10B981" opacity="0.6"/>
-  </svg>
+  <div style="text-align: center; margin: 20px 0;">
+    <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Simple Test Circle -->
+      <circle cx="400" cy="100" r="50" fill="#6366F1" opacity="0.8"/>
+      <text x="400" y="110" text-anchor="middle" fill="white" font-family="Arial" font-size="16">Tech Stack</text>
+    </svg>
+  </div>
   
 </div>
 
@@ -157,23 +130,14 @@ const developer = {
 <div align="center">
   
   <!-- Footer Decoration -->
-  <svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
-    <!-- Decorative Dots -->
-    <circle cx="100" cy="50" r="4" fill="#6366F1" opacity="0.8"/>
-    <circle cx="200" cy="50" r="4" fill="#8B5CF6" opacity="0.8"/>
-    <circle cx="300" cy="50" r="4" fill="#EC4899" opacity="0.8"/>
-    <circle cx="400" cy="50" r="4" fill="#10B981" opacity="0.8"/>
-    <circle cx="500" cy="50" r="4" fill="#F59E0B" opacity="0.8"/>
-    
-    <!-- Connection Line -->
-    <line x1="50" y1="50" x2="550" y2="50" stroke="#6366F1" stroke-width="2" opacity="0.4"/>
-    
-    <!-- Additional Decorative Elements -->
-    <circle cx="150" cy="30" r="2" fill="#6366F1" opacity="0.6"/>
-    <circle cx="250" cy="70" r="2" fill="#8B5CF6" opacity="0.6"/>
-    <circle cx="350" cy="30" r="2" fill="#EC4899" opacity="0.6"/>
-    <circle cx="450" cy="70" r="2" fill="#10B981" opacity="0.6"/>
-  </svg>
+  <div style="text-align: center; margin: 20px 0;">
+    <svg width="400" height="50" viewBox="0 0 400 50" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="25" r="5" fill="#6366F1"/>
+      <circle cx="200" cy="25" r="5" fill="#8B5CF6"/>
+      <circle cx="300" cy="25" r="5" fill="#EC4899"/>
+      <line x1="50" y1="25" x2="350" y2="25" stroke="#6366F1" stroke-width="2"/>
+    </svg>
+  </div>
   
   <br>
   
