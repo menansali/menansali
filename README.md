@@ -8,16 +8,9 @@
   <!-- Animated Profile Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=FFFFFF" alt="GitHub Stats" />
   
-  <!-- Tech Stack Visualization - Alternative without SVG -->
-  <div style="text-align: center; margin: 20px 0; padding: 20px; background: linear-gradient(135deg, #1F2937, #374151); border-radius: 15px; border: 2px solid #6366F1;">
-    <h3 style="color: #6366F1; margin-bottom: 15px;">🛠️ Tech Stack</h3>
-    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-      <span style="background: #1F2937; color: #6366F1; padding: 8px 15px; border-radius: 20px; font-family: monospace; border: 1px solid #6366F1;">C++</span>
-      <span style="background: #1F2937; color: #8B5CF6; padding: 8px 15px; border-radius: 20px; font-family: monospace; border: 1px solid #8B5CF6;">CSS</span>
-      <span style="background: #1F2937; color: #EC4899; padding: 8px 15px; border-radius: 20px; font-family: monospace; border: 1px solid #EC4899;">C#</span>
-      <span style="background: #1F2937; color: #10B981; padding: 8px 15px; border-radius: 20px; font-family: monospace; border: 1px solid #10B981;">.NET</span>
-      <span style="background: #1F2937; color: #F59E0B; padding: 8px 15px; border-radius: 20px; font-family: monospace; border: 1px solid #F59E0B;">JavaScript</span>
-    </div>
+  <!-- Tech Stack Visualization -->
+  <div align="center">
+    <img src="tech-stack.svg" alt="Tech Stack" width="600" height="150"/>
   </div>
   
 </div>
@@ -85,7 +78,7 @@ const developer = {
 
 <div align="center">
   
-  <!-- Activity Graph -->
+  <!-- Animated Progress Bars -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=menansali&theme=github-compact&hide_border=true&bg_color=0D1117&color=6366F1&line=8B5CF6&point=EC4899" alt="GitHub Activity Graph" />
   
 </div>
@@ -132,10 +125,14 @@ const developer = {
 
 <div align="center">
   
-  <!-- Alternative Footer without SVG -->
-  <div style="text-align: center; margin: 20px 0; padding: 15px; background: linear-gradient(90deg, #6366F1, #8B5CF6, #EC4899); border-radius: 10px;">
-    <p style="color: white; margin: 0; font-weight: bold;">"Code is poetry in motion" ✨</p>
+  <!-- Footer Decoration -->
+  <div align="center">
+    <img src="footer.svg" alt="Footer Decoration" width="400" height="50"/>
   </div>
+  
+  <br>
+  
+  **"Code is poetry in motion"** ✨
   
   <img src="https://komarev.com/ghpvc/?username=menansali&style=for-the-badge&color=6366F1" alt="Profile Views" />
   
