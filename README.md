@@ -16,7 +16,7 @@
       <circle cx="650" cy="100" r="35" fill="none" stroke="#8B5CF6" stroke-width="3" opacity="0.6"/>
       
       <!-- Center Element -->
-      <circle cx="400" cy="100" r="25" fill="#6366F1" opacity="0.9"/>
+      <circle cx="400" cy="100" r="25" fill="#6366F1" opacity="0.9">
       <text x="400" y="108" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">MENAN</text>
       
       <!-- Tech Stack Cards -->
