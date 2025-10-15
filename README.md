@@ -11,9 +11,51 @@
   <!-- Tech Stack Visualization -->
   <div style="text-align: center; margin: 20px 0;">
     <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-      <!-- Simple Test Circle -->
-      <circle cx="400" cy="100" r="50" fill="#6366F1" opacity="0.8"/>
-      <text x="400" y="110" text-anchor="middle" fill="white" font-family="Arial" font-size="16">Tech Stack</text>
+      <!-- Background Circles -->
+      <circle cx="150" cy="100" r="40" fill="none" stroke="#6366F1" stroke-width="3" opacity="0.6"/>
+      <circle cx="650" cy="100" r="35" fill="none" stroke="#8B5CF6" stroke-width="3" opacity="0.6"/>
+      
+      <!-- Center Element -->
+      <circle cx="400" cy="100" r="25" fill="#6366F1" opacity="0.9"/>
+      <text x="400" y="108" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">MENAN</text>
+      
+      <!-- Tech Stack Cards -->
+      <rect x="120" y="60" width="60" height="25" rx="5" fill="#1F2937" opacity="0.9"/>
+      <text x="150" y="78" text-anchor="middle" fill="#6366F1" font-family="Arial" font-size="12" font-weight="bold">C++</text>
+      
+      <rect x="620" y="60" width="60" height="25" rx="5" fill="#1F2937" opacity="0.9"/>
+      <text x="650" y="78" text-anchor="middle" fill="#8B5CF6" font-family="Arial" font-size="12" font-weight="bold">CSS</text>
+      
+      <rect x="120" y="130" width="60" height="25" rx="5" fill="#1F2937" opacity="0.9"/>
+      <text x="150" y="148" text-anchor="middle" fill="#EC4899" font-family="Arial" font-size="12" font-weight="bold">C#</text>
+      
+      <rect x="620" y="130" width="60" height="25" rx="5" fill="#1F2937" opacity="0.9"/>
+      <text x="650" y="148" text-anchor="middle" fill="#10B981" font-family="Arial" font-size="12" font-weight="bold">.NET</text>
+      
+      <!-- Connection Lines -->
+      <line x1="180" y1="100" x2="375" y2="100" stroke="#6366F1" stroke-width="2" opacity="0.4"/>
+      <line x1="425" y1="100" x2="620" y2="100" stroke="#8B5CF6" stroke-width="2" opacity="0.4"/>
+      <line x1="150" y1="140" x2="150" y2="130" stroke="#EC4899" stroke-width="2" opacity="0.4"/>
+      <line x1="650" y1="140" x2="650" y2="130" stroke="#10B981" stroke-width="2" opacity="0.4"/>
+      
+      <!-- Additional Tech Elements -->
+      <rect x="300" y="50" width="50" height="20" rx="3" fill="#374151" opacity="0.8"/>
+      <text x="325" y="64" text-anchor="middle" fill="#F59E0B" font-family="Arial" font-size="10">JS</text>
+      
+      <rect x="450" y="50" width="50" height="20" rx="3" fill="#374151" opacity="0.8"/>
+      <text x="475" y="64" text-anchor="middle" fill="#EF4444" font-family="Arial" font-size="10">HTML</text>
+      
+      <rect x="300" y="130" width="50" height="20" rx="3" fill="#374151" opacity="0.8"/>
+      <text x="325" y="144" text-anchor="middle" fill="#8B5CF6" font-family="Arial" font-size="10">GIT</text>
+      
+      <rect x="450" y="130" width="50" height="20" rx="3" fill="#374151" opacity="0.8"/>
+      <text x="475" y="144" text-anchor="middle" fill="#06B6D4" font-family="Arial" font-size="10">VS</text>
+      
+      <!-- Decorative Dots -->
+      <circle cx="250" cy="180" r="4" fill="#6366F1" opacity="0.7"/>
+      <circle cx="550" cy="180" r="4" fill="#8B5CF6" opacity="0.7"/>
+      <circle cx="350" cy="20" r="3" fill="#EC4899" opacity="0.6"/>
+      <circle cx="450" cy="20" r="3" fill="#10B981" opacity="0.6"/>
     </svg>
   </div>
   
@@ -131,11 +173,32 @@ const developer = {
   
   <!-- Footer Decoration -->
   <div style="text-align: center; margin: 20px 0;">
-    <svg width="400" height="50" viewBox="0 0 400 50" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="25" r="5" fill="#6366F1"/>
-      <circle cx="200" cy="25" r="5" fill="#8B5CF6"/>
-      <circle cx="300" cy="25" r="5" fill="#EC4899"/>
-      <line x1="50" y1="25" x2="350" y2="25" stroke="#6366F1" stroke-width="2"/>
+    <svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+      <!-- Main Dots -->
+      <circle cx="100" cy="40" r="6" fill="#6366F1" opacity="0.9"/>
+      <circle cx="200" cy="40" r="6" fill="#8B5CF6" opacity="0.9"/>
+      <circle cx="300" cy="40" r="6" fill="#EC4899" opacity="0.9"/>
+      <circle cx="400" cy="40" r="6" fill="#10B981" opacity="0.9"/>
+      <circle cx="500" cy="40" r="6" fill="#F59E0B" opacity="0.9"/>
+      
+      <!-- Connection Lines -->
+      <line x1="106" y1="40" x2="194" y2="40" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+      <line x1="206" y1="40" x2="294" y2="40" stroke="#8B5CF6" stroke-width="2" opacity="0.6"/>
+      <line x1="306" y1="40" x2="394" y2="40" stroke="#EC4899" stroke-width="2" opacity="0.6"/>
+      <line x1="406" y1="40" x2="494" y2="40" stroke="#10B981" stroke-width="2" opacity="0.6"/>
+      
+      <!-- Small Decorative Dots -->
+      <circle cx="150" cy="20" r="3" fill="#6366F1" opacity="0.7"/>
+      <circle cx="250" cy="60" r="3" fill="#8B5CF6" opacity="0.7"/>
+      <circle cx="350" cy="20" r="3" fill="#EC4899" opacity="0.7"/>
+      <circle cx="450" cy="60" r="3" fill="#10B981" opacity="0.7"/>
+      
+      <!-- Tech Labels -->
+      <text x="100" y="70" text-anchor="middle" fill="#6366F1" font-family="Arial" font-size="8" opacity="0.8">C++</text>
+      <text x="200" y="70" text-anchor="middle" fill="#8B5CF6" font-family="Arial" font-size="8" opacity="0.8">CSS</text>
+      <text x="300" y="70" text-anchor="middle" fill="#EC4899" font-family="Arial" font-size="8" opacity="0.8">C#</text>
+      <text x="400" y="70" text-anchor="middle" fill="#10B981" font-family="Arial" font-size="8" opacity="0.8">.NET</text>
+      <text x="500" y="70" text-anchor="middle" fill="#F59E0B" font-family="Arial" font-size="8" opacity="0.8">JS</text>
     </svg>
   </div>
   
