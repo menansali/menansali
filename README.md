@@ -123,7 +123,7 @@ const developer = {
   <a href="https://github.com/menansali">
     <img src="https://img.shields.io/badge/GitHub-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="mailto:menansali@example.com">
+  <a href="mailto:menansali@gmail.com">
     <img src="https://img.shields.io/badge/Email-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   
