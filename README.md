@@ -1,9 +1,13 @@
-# Hi there, I'm Menan Sali 👋
-
 <div align="center">
   
+  <!-- Animated Header Wave -->
+  <img src="header.svg" alt="Header Wave" width="700" height="60"/>
+  
+  <!-- Enhanced Typing Header -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=0EA5E9&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Menan+Sali+%F0%9F%91%8B" alt="Typing SVG" />
+  
   <!-- Animated Typing Effect -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0EA5E9&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Full+Stack+Developer;iOS+Developer;Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3B82F6&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Full+Stack+Developer;iOS+Developer;Problem+Solver" alt="Typing SVG" />
   
   <!-- Animated Profile Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=0EA5E9&icon_color=3B82F6&text_color=FFFFFF" alt="GitHub Stats" />
