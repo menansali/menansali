@@ -10,7 +10,7 @@
   
   <br>
   
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=menansali)](https://github.com/menansali/github-readme-stats)
+(https://github-readme-stats.vercel.app/api?username=menansali)
   
   <br>
   
