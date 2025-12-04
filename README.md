@@ -10,7 +10,7 @@
   
   <br>
   
-(https://github-readme-stats.vercel.app/api?username=menansali)
+
   
   <br>
   
