@@ -1,0 +1,206 @@
+<svg width="700" height="100" viewBox="0 0 700 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background -->
+    <rect width="700" height="100" fill="#0D1117"/>
+    
+    <!-- Enhanced Gradients -->
+    <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="dotGradient1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#8B5CF6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:0.6" />
+    </radialGradient>
+    
+    <radialGradient id="dotGradient2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#A78BFA;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.6" />
+    </radialGradient>
+    
+    <radialGradient id="dotGradient3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#EC4899;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.6" />
+    </radialGradient>
+    
+    <radialGradient id="dotGradient4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#8B5CF6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.6" />
+    </radialGradient>
+    
+    <!-- Enhanced Filters -->
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="lineGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feOffset in="coloredBlur" dx="0" dy="2" result="offsetBlur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="trackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366F1" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+    
+    <!-- Dot Pattern -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.5" fill="#6366F1" opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background Layers -->
+  <rect width="700" height="100" fill="#0D1117"/>
+  <rect width="700" height="100" fill="url(#grid)" opacity="0.4"/>
+  <rect width="700" height="100" fill="url(#dots)" opacity="0.3"/>
+  
+  <!-- Ambient Background Glow -->
+  <ellipse cx="200" cy="50" rx="200" ry="30" fill="url(#progressGradient)" opacity="0.08">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 15,0; 0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0.06;0.12;0.06" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="500" cy="50" rx="180" ry="25" fill="url(#progressGradient)" opacity="0.08">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -12,0; 0,0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0.06;0.12;0.06" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Enhanced Progress Track with Glow -->
+  <rect x="50" y="43" width="600" height="14" rx="7" fill="#1A1D29" opacity="0.6" filter="url(#trackGlow)"/>
+  
+  <!-- Animated Progress Bar with Gradient -->
+  <rect x="50" y="43" width="600" height="14" rx="7" fill="url(#progressGradient)" opacity="0.35">
+    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </rect>
+  
+  <!-- Inner Progress Highlight -->
+  <rect x="52" y="45" width="596" height="10" rx="5" fill="url(#progressGradient)" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Enhanced Progress Dots with Better Design -->
+  <g>
+    <!-- Dot 1 -->
+    <g>
+      <circle cx="175" cy="50" r="8" fill="url(#dotGradient1)" opacity="0.4" filter="url(#dotGlow)">
+        <animate attributeName="r" values="6;10;6" dur="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      </circle>
+      <circle cx="175" cy="50" r="6" fill="url(#dotGradient1)" filter="url(#dotGlow)">
+        <animate attributeName="r" values="5;8;5" dur="3.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Dot 2 -->
+    <g>
+      <circle cx="300" cy="50" r="8" fill="url(#dotGradient2)" opacity="0.4" filter="url(#dotGlow)">
+        <animate attributeName="r" values="6;10;6" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      </circle>
+      <circle cx="300" cy="50" r="6" fill="url(#dotGradient2)" filter="url(#dotGlow)">
+        <animate attributeName="r" values="5;8;5" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Dot 3 -->
+    <g>
+      <circle cx="425" cy="50" r="8" fill="url(#dotGradient3)" opacity="0.4" filter="url(#dotGlow)">
+        <animate attributeName="r" values="6;10;6" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      </circle>
+      <circle cx="425" cy="50" r="6" fill="url(#dotGradient3)" filter="url(#dotGlow)">
+        <animate attributeName="r" values="5;8;5" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Dot 4 -->
+    <g>
+      <circle cx="550" cy="50" r="8" fill="url(#dotGradient4)" opacity="0.4" filter="url(#dotGlow)">
+        <animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      </circle>
+      <circle cx="550" cy="50" r="6" fill="url(#dotGradient4)" filter="url(#dotGlow)">
+        <animate attributeName="r" values="5;8;5" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Enhanced Flow Line with Better Animation -->
+  <path d="M100,50 Q200,40 175,50 Q250,45 300,50 Q350,55 425,50 Q500,45 550,50 Q600,50 650,50" 
+        stroke="url(#progressGradient)" 
+        stroke-width="3.5" 
+        fill="none" 
+        opacity="0.85" 
+        filter="url(#lineGlow)"
+        stroke-linecap="round">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animate attributeName="stroke-width" values="2.5;4.5;2.5" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </path>
+  
+  <!-- Continuous Base Line -->
+  <line x1="100" y1="50" x2="650" y2="50" stroke="url(#progressGradient)" stroke-width="1.5" opacity="0.5" filter="url(#lineGlow)">
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </line>
+  
+  <!-- Enhanced Floating Particles -->
+  <g>
+    <circle cx="120" cy="30" r="2" fill="#6366F1" opacity="0.7" filter="url(#dotGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="1.5;2.5;1.5" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="580" cy="70" r="2" fill="#8B5CF6" opacity="0.7" filter="url(#dotGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="1.5;2.5;1.5" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="250" cy="25" r="1.5" fill="#A78BFA" opacity="0.6" filter="url(#dotGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 5,-2; 0,0" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="450" cy="75" r="1.5" fill="#EC4899" opacity="0.6" filter="url(#dotGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -5,2; 0,0" dur="7.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="7.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="1;2;1" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Additional Smaller Particles -->
+    <circle cx="80" cy="60" r="1" fill="#6366F1" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 3,4; 0,0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="620" cy="40" r="1" fill="#8B5CF6" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -3,-4; 0,0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

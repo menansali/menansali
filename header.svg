@@ -1,0 +1,137 @@
+<svg width="700" height="60" viewBox="0 0 700 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background -->
+    <rect width="700" height="60" fill="#0D1117"/>
+    
+    <!-- Enhanced Gradients -->
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.5" />
+      <stop offset="30%" style="stop-color:#8B5CF6;stop-opacity:0.7" />
+      <stop offset="70%" style="stop-color:#A78BFA;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.5" />
+    </linearGradient>
+    
+    <radialGradient id="particleGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="particleGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="particleGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Enhanced Filters -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="waveGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feOffset in="coloredBlur" dx="0" dy="2" result="offsetBlur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366F1" stroke-width="0.2" opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background Layers -->
+  <rect width="700" height="60" fill="#0D1117"/>
+  <rect width="700" height="60" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Ambient Background Glow -->
+  <ellipse cx="200" cy="30" rx="180" ry="25" fill="url(#headerGradient)" opacity="0.12">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 10,-2; 0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0.08;0.15;0.08" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="500" cy="30" rx="150" ry="20" fill="url(#headerGradient)" opacity="0.1">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -8,3; 0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0.08;0.14;0.08" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Enhanced Animated Wave with Multiple Layers -->
+  <g>
+    <!-- Base Wave Layer -->
+    <path d="M0,30 Q175,15 350,30 T700,30 L700,0 L0,0 Z" fill="url(#headerGradient)" opacity="0.85" filter="url(#waveGlow)">
+      <animate attributeName="d" 
+               values="M0,30 Q175,15 350,30 T700,30 L700,0 L0,0 Z;M0,30 Q175,45 350,30 T700,30 L700,0 L0,0 Z;M0,30 Q175,20 350,30 T700,30 L700,0 L0,0 Z;M0,30 Q175,15 350,30 T700,30 L700,0 L0,0 Z" 
+               dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    </path>
+    
+    <!-- Secondary Wave Layer for Depth -->
+    <path d="M0,35 Q175,20 350,35 T700,35 L700,30 L0,30 Z" fill="url(#headerGradient)" opacity="0.4">
+      <animate attributeName="d" 
+               values="M0,35 Q175,20 350,35 T700,35 L700,30 L0,30 Z;M0,35 Q175,35 350,35 T700,35 L700,30 L0,30 Z;M0,35 Q175,25 350,35 T700,35 L700,30 L0,30 Z;M0,35 Q175,20 350,35 T700,35 L700,30 L0,30 Z" 
+               dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    </path>
+  </g>
+  
+  <!-- Enhanced Floating Particles with Better Animation -->
+  <g>
+    <!-- Particle 1 - Left Side -->
+    <circle cx="150" cy="15" r="2.5" fill="url(#particleGlow1)" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,10; 0,0" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="2;3.5;2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Particle 2 - Right Side -->
+    <circle cx="550" cy="45" r="2.5" fill="url(#particleGlow2)" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="2;3.5;2" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Particle 3 - Center -->
+    <circle cx="350" cy="25" r="2" fill="url(#particleGlow3)" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,8; 0,0" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="r" values="1.5;3;1.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Additional Smaller Particles -->
+    <circle cx="80" cy="40" r="1.5" fill="#6366F1" opacity="0.6" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 5,-5; 0,0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="620" cy="20" r="1.5" fill="#8B5CF6" opacity="0.6" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -5,5; 0,0" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="250" cy="50" r="1" fill="#A78BFA" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 3,3; 0,0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="450" cy="10" r="1" fill="#EC4899" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -3,-3; 0,0" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
