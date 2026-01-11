@@ -5,25 +5,25 @@
     
     <!-- Enhanced Gradients -->
     <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.5" />
-      <stop offset="30%" style="stop-color:#8B5CF6;stop-opacity:0.7" />
-      <stop offset="70%" style="stop-color:#A78BFA;stop-opacity:0.7" />
-      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.5" />
+      <stop offset="0%" style="stop-color:#9CA3AF;stop-opacity:0.5" />
+      <stop offset="30%" style="stop-color:#6B7280;stop-opacity:0.7" />
+      <stop offset="70%" style="stop-color:#D1D5DB;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:0.5" />
     </linearGradient>
     
     <radialGradient id="particleGlow1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:0" />
+      <stop offset="0%" style="stop-color:#9CA3AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9CA3AF;stop-opacity:0" />
     </radialGradient>
     
     <radialGradient id="particleGlow2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0" />
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B7280;stop-opacity:0" />
     </radialGradient>
     
     <radialGradient id="particleGlow3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0" />
+      <stop offset="0%" style="stop-color:#4B5563;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:0" />
     </radialGradient>
     
     <!-- Enhanced Filters -->
@@ -54,7 +54,7 @@
     
     <!-- Subtle Grid Pattern -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366F1" stroke-width="0.2" opacity="0.08"/>
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#9CA3AF" stroke-width="0.2" opacity="0.08"/>
     </pattern>
   </defs>
   
@@ -114,22 +114,22 @@
     </circle>
     
     <!-- Additional Smaller Particles -->
-    <circle cx="80" cy="40" r="1.5" fill="#6366F1" opacity="0.6" filter="url(#softGlow)">
+    <circle cx="80" cy="40" r="1.5" fill="#9CA3AF" opacity="0.6" filter="url(#softGlow)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 5,-5; 0,0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
       <animate attributeName="opacity" values="0.4;0.8;0.4" dur="6s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="620" cy="20" r="1.5" fill="#8B5CF6" opacity="0.6" filter="url(#softGlow)">
+    <circle cx="620" cy="20" r="1.5" fill="#6B7280" opacity="0.6" filter="url(#softGlow)">
       <animateTransform attributeName="transform" type="translate" values="0,0; -5,5; 0,0" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
       <animate attributeName="opacity" values="0.4;0.8;0.4" dur="5.5s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="250" cy="50" r="1" fill="#A78BFA" opacity="0.5">
+    <circle cx="250" cy="50" r="1" fill="#D1D5DB" opacity="0.5">
       <animateTransform attributeName="transform" type="translate" values="0,0; 3,3; 0,0" dur="7s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="7s" repeatCount="indefinite"/>
     </circle>
     
-    <circle cx="450" cy="10" r="1" fill="#EC4899" opacity="0.5">
+    <circle cx="450" cy="10" r="1" fill="#4B5563" opacity="0.5">
       <animateTransform attributeName="transform" type="translate" values="0,0; -3,-3; 0,0" dur="6.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="6.5s" repeatCount="indefinite"/>
     </circle>
