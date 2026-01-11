@@ -125,8 +125,8 @@
                         current.x, current.y,
                         next.x, next.y
                     );
-                    gradient.addColorStop(0, `rgba(139, 92, 246, ${current.opacity})`);
-                    gradient.addColorStop(1, `rgba(139, 92, 246, ${next.opacity})`);
+                    gradient.addColorStop(0, `rgba(107, 114, 128, ${current.opacity})`);
+                    gradient.addColorStop(1, `rgba(107, 114, 128, ${next.opacity})`);
                     
                     ctx.strokeStyle = gradient;
                     ctx.lineWidth = 2;
@@ -150,9 +150,9 @@
                         seg.x, seg.y, 0,
                         seg.x, seg.y, seg.size * 2
                     );
-                    glowGradient.addColorStop(0, 'rgba(139, 92, 246, 0.8)');
-                    glowGradient.addColorStop(0.5, 'rgba(139, 92, 246, 0.4)');
-                    glowGradient.addColorStop(1, 'rgba(139, 92, 246, 0)');
+                    glowGradient.addColorStop(0, 'rgba(107, 114, 128, 0.8)');
+                    glowGradient.addColorStop(0.5, 'rgba(107, 114, 128, 0.4)');
+                    glowGradient.addColorStop(1, 'rgba(107, 114, 128, 0)');
                     
                     ctx.fillStyle = glowGradient;
                     ctx.beginPath();
@@ -160,7 +160,7 @@
                     ctx.fill();
                     
                     // Core particle
-                    ctx.fillStyle = '#8B5CF6';
+                    ctx.fillStyle = '#6B7280';
                     ctx.beginPath();
                     ctx.arc(seg.x, seg.y, seg.size, 0, Math.PI * 2);
                     ctx.fill();
@@ -186,22 +186,22 @@
                 config.centerX - 200, config.centerY - 100, 0,
                 config.centerX - 200, config.centerY - 100, 600
             );
-            gradient1.addColorStop(0, 'rgba(26, 10, 46, 0.6)');
+            gradient1.addColorStop(0, 'rgba(30, 30, 35, 0.6)');
             gradient1.addColorStop(1, 'rgba(10, 10, 10, 0)');
             
             const gradient2 = ctx.createRadialGradient(
                 config.centerX + 200, config.centerY + 100, 0,
                 config.centerX + 200, config.centerY + 100, 600
             );
-            gradient2.addColorStop(0, 'rgba(26, 10, 46, 0.4)');
+            gradient2.addColorStop(0, 'rgba(30, 30, 35, 0.4)');
             gradient2.addColorStop(1, 'rgba(10, 10, 10, 0)');
             
             // Base gradient
             const baseGradient = ctx.createLinearGradient(0, 0, config.width, config.height);
             baseGradient.addColorStop(0, '#0a0a0a');
-            baseGradient.addColorStop(0.3, '#0f0a1a');
-            baseGradient.addColorStop(0.5, '#1a0a2e');
-            baseGradient.addColorStop(0.7, '#0f0a1a');
+            baseGradient.addColorStop(0.3, '#0f0f12');
+            baseGradient.addColorStop(0.5, '#1a1a1f');
+            baseGradient.addColorStop(0.7, '#0f0f12');
             baseGradient.addColorStop(1, '#0a0a0a');
             
             ctx.fillStyle = baseGradient;
@@ -219,7 +219,7 @@
         function drawTechShapes(time) {
             ctx.save();
             ctx.globalAlpha = 0.08;
-            ctx.strokeStyle = '#6366F1';
+            ctx.strokeStyle = '#9CA3AF';
             ctx.lineWidth = 0.5;
             
             // Subtle animated grid pattern
@@ -293,8 +293,8 @@
             // Multiple glow layers for depth
             for (let i = 8; i > 0; i--) {
                 ctx.shadowBlur = i * 6 * pulse;
-                ctx.shadowColor = `rgba(139, 92, 246, ${0.15 * i * pulse})`;
-                ctx.fillStyle = `rgba(139, 92, 246, ${0.05 * i})`;
+                ctx.shadowColor = `rgba(107, 114, 128, ${0.15 * i * pulse})`;
+                ctx.fillStyle = `rgba(107, 114, 128, ${0.05 * i})`;
                 ctx.font = `bold ${64 - i * 2}px 'Arial', sans-serif`;
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
@@ -303,7 +303,7 @@
             
             // Main text with strong glow
             ctx.shadowBlur = 25 * pulse;
-            ctx.shadowColor = 'rgba(139, 92, 246, 0.9)';
+            ctx.shadowColor = 'rgba(107, 114, 128, 0.9)';
             ctx.fillStyle = '#ffffff';
             ctx.font = 'bold 64px "Arial", sans-serif';
             ctx.textAlign = 'center';
@@ -312,7 +312,7 @@
             
             // Inner bright glow
             ctx.shadowBlur = 35 * pulse;
-            ctx.shadowColor = 'rgba(139, 92, 246, 1)';
+            ctx.shadowColor = 'rgba(107, 114, 128, 1)';
             ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
             ctx.fillText(text, config.centerX, config.centerY);
             
