@@ -4,13 +4,13 @@
   
   <br>
   
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Menan+Sali+%F0%9F%91%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=9CA3AF&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Menan+Sali+%F0%9F%91%8B" alt="Typing SVG" />
   
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=8B5CF6&center=true&vCenter=true&width=435&lines=Aspiring+iOS+Developer;Frontend+Developer;IoT+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6B7280&center=true&vCenter=true&width=435&lines=Aspiring+iOS+Developer;Frontend+Developer;IoT+Enthusiast" alt="Typing SVG" />
   
   <br>
   
-  <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=FFFFFF&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&icon_color=6B7280&text_color=FFFFFF&locale=en" alt="GitHub Stats" />
   
   <br>
   
@@ -66,11 +66,11 @@ Computer Science student at **South East European University** passionate about 
 
 <div align="center">
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=6366F1&ring=8B5CF6&fire=EC4899&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=6366F1&sideLabels=FFFFFF&dates=8B5CF6" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=4B5563&ring=6B7280&fire=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9CA3AF&sideLabels=FFFFFF&dates=6B7280" alt="GitHub Streak" />
   
   <br><br>
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menansali&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menansali&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
   
 </div>
 
@@ -92,12 +92,12 @@ Computer Science student at **South East European University** passionate about 
     <tr>
       <td align="center" width="50%">
         <a href="https://github.com/menansali/Flight-booking-website">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=Flight-booking-website&theme=dark&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=FFFFFF" alt="Flight Booking Website" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=Flight-booking-website&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&text_color=FFFFFF" alt="Flight Booking Website" />
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://github.com/menansali/like-wise-payroll">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=like-wise-payroll&theme=dark&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=FFFFFF" alt="LikeWise Payroll" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=like-wise-payroll&theme=dark&hide_border=true&bg_color=0D1117&title_color=6B7280&text_color=FFFFFF" alt="LikeWise Payroll" />
         </a>
       </td>
     </tr>
@@ -112,11 +112,11 @@ Computer Science student at **South East European University** passionate about 
 <div align="center">
   
   <a href="https://menansali.com">
-    <img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-4B5563?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://github.com/menansali">
-    <img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-6B7280?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/menansali">
@@ -124,7 +124,7 @@ Computer Science student at **South East European University** passionate about 
   </a>
   &nbsp;
   <a href="mailto:menansali@gmail.com">
-    <img src="https://img.shields.io/badge/Email-A78BFA?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-9CA3AF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   
 </div>
@@ -141,6 +141,6 @@ Computer Science student at **South East European University** passionate about 
   
   <br>
   
-  <img src="https://komarev.com/ghpvc/?username=menansali&style=for-the-badge&color=6366F1" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=menansali&style=for-the-badge&color=6B7280" alt="Profile Views" />
   
 </div>
