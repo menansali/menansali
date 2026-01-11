@@ -137,7 +137,7 @@ Computer Science student at **South East European University** passionate about 
   
   <br>
   
-  **"Turning caffeine into code, one commit at a time"** ☕️💻
+  **`if (works) { don't.touch(); }`**
   
   <br>
   
