@@ -96,7 +96,7 @@ Computer Science student at **South East European University** passionate about 
     <img src="https://img.shields.io/badge/LikeWise_Payroll-6B7280?style=for-the-badge&logo=github&logoColor=white" alt="LikeWise Payroll" />
   </a>
   <br>
-  <i>Automated payroll management system developed using .NET framework.</i>
+  <i>Global payroll orchestration platform built with Next.js, TypeScript, and Tailwind CSS.</i>
   
 </div>
 
