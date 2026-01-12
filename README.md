@@ -62,7 +62,7 @@ Computer Science student at **South East European University** passionate about 
 
 <div align="center">
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=4B5563&ring=6B7280&fire=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9CA3AF&sideLabels=FFFFFF&dates=6B7280" alt="GitHub Streak" />
+  <img src="https://github.com/menansali/menansali/raw/output/github-streak-stats.svg" alt="GitHub Streak" />
   
   <br>
   

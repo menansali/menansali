@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake and Stats
 
 on:
   schedule:
@@ -30,10 +30,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
+      - name: fetch github-streak-stats.svg
+        run: |
+          curl "https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=4B5563&ring=6B7280&fire=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9CA3AF&sideLabels=FFFFFF&dates=6B7280" -o dist/github-streak-stats.svg
           
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: push dist to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
