@@ -10,10 +10,6 @@
   
   <br>
   
-  <img src="https://github-readme-stats.vercel.app/api?username=menansali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&icon_color=6B7280&text_color=FFFFFF&locale=en" alt="GitHub Stats" />
-  
-  <br>
-  
   <img src="tech-stack.svg" alt="Tech Stack" width="800" height="200"/>
   
 </div>
@@ -62,20 +58,6 @@ Computer Science student at **South East European University** passionate about 
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=4B5563&ring=6B7280&fire=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9CA3AF&sideLabels=FFFFFF&dates=6B7280" alt="GitHub Streak" />
-  
-  <br><br>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=menansali&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-  
-</div>
-
----
-
 ## 🎯 Current Focus
 
 - 📱 Building iOS apps with **Swift** and **SwiftUI**
@@ -88,20 +70,13 @@ Computer Science student at **South East European University** passionate about 
 
 <div align="center">
   
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <a href="https://github.com/menansali/Flight-booking-website">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=Flight-booking-website&theme=dark&hide_border=true&bg_color=0D1117&title_color=9CA3AF&text_color=FFFFFF" alt="Flight Booking Website" />
-        </a>
-      </td>
-      <td align="center" width="50%">
-        <a href="https://github.com/menansali/like-wise-payroll">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=menansali&repo=like-wise-payroll&theme=dark&hide_border=true&bg_color=0D1117&title_color=6B7280&text_color=FFFFFF" alt="LikeWise Payroll" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/menansali/Flight-booking-website">
+    <img src="https://img.shields.io/badge/Flight_Booking_Website-4B5563?style=for-the-badge&logo=github&logoColor=white" alt="Flight Booking Website" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/menansali/like-wise-payroll">
+    <img src="https://img.shields.io/badge/LikeWise_Payroll-6B7280?style=for-the-badge&logo=github&logoColor=white" alt="LikeWise Payroll" />
+  </a>
   
 </div>
 
