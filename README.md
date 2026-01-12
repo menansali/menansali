@@ -18,9 +18,11 @@
 
 ## 🚀 About Me
 
-Computer Science student at **South East European University** passionate about building beautiful mobile and web experiences. Currently focused on iOS development while maintaining strong frontend skills.
+Computer Science student at **South East European University** passionate about building beautiful mobile and web experiences.
 
-- 📱 **Currently Learning:** iOS Development with Swift & SwiftUI  
+- 📱 **Focus:** iOS Development with Swift & SwiftUI  
+- 🎨 **Skills:** Responsive Frontend Interfaces  
+- 🤖 **Hobby:** IoT projects with Arduino & Raspberry Pi  
 - 🎯 **Goal:** Become a professional iOS Developer
 
 ---
@@ -31,34 +33,34 @@ Computer Science student at **South East European University** passionate about 
   
   <h3>Languages & Frameworks</h3>
   
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/Swift-EC4899?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/SwiftUI-8B5CF6?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/JavaScript-4B5563?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/C%23-6B7280?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/C%2B%2B-9CA3AF?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/.NET-4B5563?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/Swift-6B7280?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+  <img src="https://img.shields.io/badge/SwiftUI-9CA3AF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" />
   
   <br><br>
   
   <h3>Databases & Tools</h3>
   
-  <img src="https://img.shields.io/badge/PostgreSQL-A78BFA?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-6366F1?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-8B5CF6?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Git-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4B5563?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-6B7280?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-9CA3AF?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-4B5563?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   
   <br><br>
   
   <h3>Hardware</h3>
   
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/Arduino-6B7280?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-9CA3AF?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
   
 </div>
 
 ---
 
-## 📊 GitHub Streak
+## 📊 Activity
 
 <div align="center">
   
@@ -69,14 +71,6 @@ Computer Science student at **South East European University** passionate about 
   <img src="https://github.com/menansali/menansali/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
   
 </div>
-
----
-
-## 🎯 Current Focus
-
-- 📱 Building iOS apps with **Swift** and **SwiftUI**
-- 🎨 Creating responsive frontend interfaces
-- 🤖 Exploring IoT projects with Arduino & Raspberry Pi
 
 ---
 
