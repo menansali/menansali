@@ -58,6 +58,20 @@ Computer Science student at **South East European University** passionate about 
 
 ---
 
+## 📊 GitHub Streak
+
+<div align="center">
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menansali&theme=dark&hide_border=true&background=0D1117&stroke=4B5563&ring=6B7280&fire=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9CA3AF&sideLabels=FFFFFF&dates=6B7280" alt="GitHub Streak" />
+  
+  <br>
+  
+  <img src="https://github.com/menansali/menansali/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  
+</div>
+
+---
+
 ## 🎯 Current Focus
 
 - 📱 Building iOS apps with **Swift** and **SwiftUI**
@@ -73,10 +87,16 @@ Computer Science student at **South East European University** passionate about 
   <a href="https://github.com/menansali/Flight-booking-website">
     <img src="https://img.shields.io/badge/Flight_Booking_Website-4B5563?style=for-the-badge&logo=github&logoColor=white" alt="Flight Booking Website" />
   </a>
-  &nbsp;
+  <br>
+  <i>A comprehensive flight booking platform built with modern web technologies.</i>
+  
+  <br><br>
+  
   <a href="https://github.com/menansali/like-wise-payroll">
     <img src="https://img.shields.io/badge/LikeWise_Payroll-6B7280?style=for-the-badge&logo=github&logoColor=white" alt="LikeWise Payroll" />
   </a>
+  <br>
+  <i>Global payroll orchestration platform built with Next.js, TypeScript, and Tailwind CSS.</i>
   
 </div>
 
