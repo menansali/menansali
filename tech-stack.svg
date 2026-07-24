@@ -196,22 +196,22 @@
   
   <!-- Enhanced Tech Indicators with Better Design -->
   <g>
-    <!-- HTML -->
+    <!-- TypeScript -->
     <g>
       <rect x="50" y="38" width="62" height="28" rx="14" fill="#1A1D29" fill-opacity="0.8" stroke="#9CA3AF" stroke-width="1.8" opacity="0.95" filter="url(#cardGlow)">
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
       </rect>
       <rect x="52" y="40" width="58" height="12" rx="12" fill="#9CA3AF" opacity="0.15"/>
-      <text x="81" y="57" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" filter="url(#textGlow)">HTML</text>
+      <text x="81" y="57" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" filter="url(#textGlow)">TS</text>
     </g>
     
-    <!-- CSS -->
+    <!-- Next.js -->
     <g>
       <rect x="688" y="38" width="62" height="28" rx="14" fill="#1A1D29" fill-opacity="0.8" stroke="#6B7280" stroke-width="1.8" opacity="0.95" filter="url(#cardGlow)">
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
       </rect>
       <rect x="690" y="40" width="58" height="12" rx="12" fill="#6B7280" opacity="0.15"/>
-      <text x="719" y="57" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" filter="url(#textGlow)">CSS</text>
+      <text x="719" y="57" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" filter="url(#textGlow)">Next.js</text>
     </g>
     
     <!-- Arduino -->

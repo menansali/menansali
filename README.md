@@ -6,7 +6,7 @@
   
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=9CA3AF&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Menan+Sali+%F0%9F%91%8B" alt="Typing SVG" />
   
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6B7280&center=true&vCenter=true&width=435&lines=Aspiring+iOS+Developer;Frontend+Developer;IoT+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6B7280&center=true&vCenter=true&width=435&lines=Software+Engineer" alt="Typing SVG" />
   
   <br>
   
@@ -18,12 +18,14 @@
 
 ## 🚀 About Me
 
-Computer Science student at **South East European University** passionate about building beautiful mobile and web experiences.
+Computer Science graduate from **South East European University** — I build and ship products, mostly native iOS apps and the backends behind them.
 
-- 📱 **Focus:** iOS Development with Swift & SwiftUI  
-- 🎨 **Skills:** Responsive Frontend Interfaces  
-- 🤖 **Hobby:** IoT projects with Arduino & Raspberry Pi  
-- 🎯 **Goal:** Become a professional iOS Developer
+- 📱 **iOS** — native apps built with Swift & SwiftUI, from first screen to the App Store
+- 🧩 **Dev tooling** — MCP servers that drop straight into Claude Code, Cursor, Codex & Zed
+- 🌐 **Full-stack** — Next.js + TypeScript + Postgres products, deployed and running in production
+- 📡 **RF & IoT** — radio propagation modelling on real terrain, Arduino, Raspberry Pi, LoRa sensor networks
+
+*Currently: shipping iOS apps to the App Store and open-sourcing the tools I needed along the way.*
 
 ---
 
@@ -31,14 +33,25 @@ Computer Science student at **South East European University** passionate about 
 
 <div align="center">
   
-  <h3>Languages & Frameworks</h3>
+  <h3>Languages</h3>
   
-  <img src="https://img.shields.io/badge/JavaScript-4B5563?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-4B5563?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-6B7280?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Swift-9CA3AF?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+  <img src="https://img.shields.io/badge/Python-4B5563?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C%23-6B7280?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/C%2B%2B-9CA3AF?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/.NET-4B5563?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/Swift-6B7280?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/SwiftUI-9CA3AF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" />
+  
+  <br><br>
+  
+  <h3>Frameworks</h3>
+  
+  <img src="https://img.shields.io/badge/SwiftUI-4B5563?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/React-6B7280?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-9CA3AF?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-4B5563?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Tailwind-6B7280?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/.NET-9CA3AF?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
   
   <br><br>
   
@@ -47,7 +60,9 @@ Computer Science student at **South East European University** passionate about 
   <img src="https://img.shields.io/badge/PostgreSQL-4B5563?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-6B7280?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/MySQL-9CA3AF?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Git-4B5563?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Supabase-4B5563?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Vercel-6B7280?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Git-9CA3AF?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   
   <br><br>
   
@@ -78,21 +93,38 @@ Computer Science student at **South East European University** passionate about 
 
 <div align="center">
   
-  <a href="https://github.com/menansali/Flight-booking-website">
-    <img src="https://img.shields.io/badge/Flight_Booking_Website-4B5563?style=for-the-badge&logo=github&logoColor=white" alt="Flight Booking Website" />
+  <a href="https://github.com/menansali/ios-ship-doctor">
+    <img src="https://img.shields.io/badge/🩺_iOS_Ship_Doctor-4B5563?style=for-the-badge&logoColor=white" alt="iOS Ship Doctor" />
   </a>
-  <br>
-  <i>A comprehensive flight booking platform built with modern web technologies.</i>
-  
-  <br><br>
-  
-  <a href="https://github.com/menansali/like-wise-payroll">
-    <img src="https://img.shields.io/badge/LikeWise_Payroll-6B7280?style=for-the-badge&logo=github&logoColor=white" alt="LikeWise Payroll" />
+  &nbsp;
+  <a href="https://github.com/menansali/npm-gamify">
+    <img src="https://img.shields.io/badge/🎮_npm--gamify-6B7280?style=for-the-badge&logoColor=white" alt="npm-gamify" />
   </a>
-  <br>
-  <i>Global payroll orchestration platform built with Next.js, TypeScript, and Tailwind CSS.</i>
+  &nbsp;
+  <a href="https://github.com/menansali/Personal-Portfolio">
+    <img src="https://img.shields.io/badge/📱_Personal_Portfolio-9CA3AF?style=for-the-badge&logoColor=white" alt="Personal Portfolio" />
+  </a>
   
 </div>
+
+<br>
+
+**Open source**
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[iOS Ship Doctor](https://github.com/menansali/ios-ship-doctor)** | An MCP server that catches App Store rejections *before* you hit Submit — privacy manifests, missing permission strings, unlisted SDKs — then fixes them | TypeScript · MCP · Node |
+| **[npm-gamify](https://github.com/menansali/npm-gamify)** | Earn XP, level up and unlock achievements every time you run npm, pnpm, yarn or bun | TypeScript · CLI |
+| **[Personal Portfolio](https://github.com/menansali/Personal-Portfolio)** · [live](https://menan.titanix.dev) | iOS-themed portfolio — the whole site behaves like an iPhone home screen | Next.js · TypeScript |
+
+**Also building**
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Titanix](https://titanix.dev)** | Agency site with an interactive "Smart Consultant" that scopes project ideas into timelines and stacks | Next.js · TypeScript |
+| **PetPortraits** | One photo of your pet becomes a gallery-grade AI portrait in ~20 seconds | SwiftUI · iOS |
+| **LaunchMast** | AI operating system for mobile app launches — generates the app, then preps screenshots, ASO, localization and compliance for the stores | Next.js · Anthropic SDK |
+| **skeniraj.mk** | QR menu platform for restaurants, bars, cafés and hotels | Turborepo · tRPC · Drizzle |
 
 ---
 
